@@ -1,0 +1,46 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/public"
+  to = "/.netlify/functions/api?action=public"
+  status = 200
+
+[[redirects]]
+  from = "/api/login"
+  to = "/.netlify/functions/api?action=login"
+  status = 200
+
+[[redirects]]
+  from = "/api/logout"
+  to = "/.netlify/functions/api?action=logout"
+  status = 200
+
+[[redirects]]
+  from = "/api/volunteer"
+  to = "/.netlify/functions/api?action=volunteer"
+  status = 200
+
+[[redirects]]
+  from = "/api/admin-data"
+  to = "/.netlify/functions/api?action=admin-data"
+  status = 200
+
+[[redirects]]
+  from = "/api/save-content"
+  to = "/.netlify/functions/api?action=save-content"
+  status = 200
+
+[[redirects]]
+  from = "/api/save-palette"
+  to = "/.netlify/functions/api?action=save-palette"
+  status = 200
+
+[[redirects]]
+  from = "/api/save-availability"
+  to = "/.netlify/functions/api?action=save-availability"
+  status = 200
+
+[build.environment]
+  NODE_VERSION = "22"

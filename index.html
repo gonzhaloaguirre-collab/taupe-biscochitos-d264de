@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Girls Conquering the World: juntas creamos oportunidades.">
+  <title>Girls Conquering the World | Juntas creamos oportunidades</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#inicio" aria-label="Girls Conquering the World, inicio">
+    <img class="brand-logo" src="images/logo-oficial.jpg" alt="Logo oficial de Girls Conquering the World">
+    <span class="brand-name">GIRLS CONQUERING<br><b>THE WORLD</b><small>VOLUNTARIADO · EDUCACIÓN</small></span>
+  </a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+  <nav id="mainNav">
+    <a href="#nosotras" data-i18n="navAbout">Conócenos</a>
+    <a href="historia.html">Historia de Girls...</a>
+    <a href="#proyectos" data-i18n="navProjects">Proyectos</a>
+    <a href="#acreditacion">Acreditación</a>
+    <a href="#voluntariado" data-i18n="navVolunteer">Voluntariado</a>
+    <a href="#ingles" data-i18n="navEnglish">Inglés</a>
+    <a href="#transparencia" data-i18n="navTransparency">Transparencia</a>
+    <a href="#contacto" data-i18n="navContact">Contacto</a>
+  </nav>
+  <div class="header-actions">
+    <button class="lang-btn" id="langToggle" aria-label="Change language">EN</button>
+    <a class="button button-small" href="#voluntariado" data-i18n="join">Únete</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-shape shape-one"></div><div class="hero-shape shape-two"></div>
+  <div class="hero-content">
+    <div class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="heroEyebrow">UNA COMUNIDAD QUE TRANSFORMA</span></div>
+    <h1 data-i18n="heroTitle">Juntas creamos<br><em>oportunidades.</em></h1>
+    <p class="hero-copy" data-i18n="heroCopy">Impulsamos la educación, el acompañamiento y el desarrollo de niñas y mujeres a través de acciones que generan cambios reales en nuestra comunidad.</p>
+    <div class="hero-buttons">
+      <a class="button" href="#proyectos" data-i18n="seeProjects">Conoce nuestros proyectos <span>↗</span></a>
+      <a class="text-link" href="#nosotras" data-i18n="knowUs">Conócenos <span>→</span></a>
+    </div>
+    <div class="hero-note"><span class="note-star">✳</span><span data-i18n="heroNote">Educación · Comunidad · Oportunidades</span></div>
+  </div>
+  <div class="hero-art">
+    <div class="photo-frame">
+      <img src="images/voluntariado-grupal.jpg" alt="Jóvenes aprendiendo juntas">
+      <div class="photo-label"><span>✦</span><div><b data-i18n="photoLabelTitle">El futuro se construye</b><small data-i18n="photoLabelSub">con oportunidades para todas</small></div></div>
+    </div>
+    <div class="sun-stamp">GIRLS<br><b>CAN</b><br>✳</div>
+    <div class="floating-note"><span>01</span><b data-i18n="floatingNote">Pequeñas acciones,<br>grandes cambios.</b></div>
+  </div>
+  <a href="#nosotras" class="scroll-cue"><span></span> SCROLL</a>
+</section>
+
+<section class="ticker" aria-label="Nuestros valores"><div>
+  <span>EDUCACIÓN CON PROPÓSITO ✳</span><span>COMUNIDAD ✳</span><span>IGUALDAD DE OPORTUNIDADES ✳</span><span>EDUCACIÓN CON PROPÓSITO ✳</span>
+</div></section>
+
+<section class="section about-section" id="nosotras">
+  <div class="section-kicker">01 / CONÓCENOS</div>
+  <div class="about-grid">
+    <div><h2>Hola, somos<br><em>Girls Conquering the World.</em></h2></div>
+    <div class="about-text">
+      <p class="welcome-line">Te invitamos a conocernos.</p>
+      <h3>¿Qué somos?</h3>
+      <p>Somos una comunidad de jóvenes que cree que ninguna niña debería tener que renunciar a sus sueños por falta de oportunidades. Nos une la convicción de que aprender, acompañarnos y abrir espacios seguros puede transformar vidas. Crecemos juntas, escuchamos cada historia y convertimos nuestras ideas en acciones que dejan huella.</p>
+      <h3>¿Qué buscamos?</h3>
+      <p>Buscamos que cada niña y mujer descubra todo lo que es capaz de lograr. Queremos acercar la educación, el inglés y el conocimiento de nuestros derechos a quienes más lo necesitan; crear redes de apoyo donde nadie se sienta sola y demostrar que un futuro más justo se construye cuando nos damos la mano. Porque cuando una de nosotras avanza, avanzamos todas.</p>
+      <a class="under-link" href="historia.html">HISTORIA DE GIRLS CONQUERING THE WORLD <span>↗</span></a>
+    </div>
+  </div>
+  <div class="ods-heading"><span>✳</span><div><h3>¿Cuáles son nuestros ODS?</h3><p>Nuestra ONG cuenta con 3 Objetivos de Desarrollo Sostenible:</p></div></div>
+  <div class="ods-grid">
+    <article class="ods-card ods-four"><b>1</b><span>ODS 4 · Educación de calidad</span></article>
+    <article class="ods-card ods-five"><b>2</b><span>ODS 5 · Igualdad de género</span></article>
+    <article class="ods-card ods-ten"><b>3</b><span>ODS 10 · Reducción de las desigualdades</span></article>
+  </div>
+</section>
+
+<section class="section activity-gallery-section" id="actividades">
+  <div class="section-heading">
+    <div><div class="section-kicker">02 / NUESTRAS ACTIVIDADES</div><h2>Aprendemos,<br><em>crecemos juntas.</em></h2></div>
+    <p>Compartimos momentos de aprendizaje, creatividad y acompañamiento junto a niñas y niños de nuestra comunidad.</p>
+  </div>
+  <div class="activity-photo-grid">
+    <figure class="activity-photo activity-photo-tall"><img src="images/actividad-creativa.jpg" alt="Niñas realizando una actividad creativa durante el voluntariado"><figcaption>Creatividad y aprendizaje</figcaption></figure>
+    <figure class="activity-photo"><img src="images/voluntarias-aula.jpg" alt="Voluntarias acompañando una actividad educativa"><figcaption>Acompañamiento educativo</figcaption></figure>
+    <figure class="activity-photo"><img src="images/actividad-nina.jpg" alt="Niña mostrando un trabajo realizado en el voluntariado"><figcaption>Pequeños logros, grandes pasos</figcaption></figure>
+    <figure class="activity-photo activity-photo-wide"><img src="images/voluntarias-actividad.jpg" alt="Voluntarias desarrollando una actividad en el aula"><figcaption>Aprender en comunidad</figcaption></figure>
+  </div>
+  <a class="under-link history-cta" href="historia.html">HISTORIA DE GIRLS CONQUERING THE WORLD <span>↗</span></a>
+</section>
+<section class="section certification-section" id="acreditacion">
+  <div class="section-kicker">03 / RESPALDO INSTITUCIONAL</div>
+  <div class="certification-grid">
+    <div><h2>Una organización<br><em>acreditada.</em></h2>
+      <p>Girls Conquering the World cuenta con constancia de acreditación de la Secretaría Nacional de la Juventud (SENAJU), que certifica su inscripción en el Registro Nacional de Organizaciones Juveniles.</p>
+      <a class="button button-dark" href="images/constancia-senaju.pdf" target="_blank" rel="noopener">Ver constancia completa ↗</a>
+      <a class="under-link cert-download" href="images/constancia-senaju.pdf" download>Descargar constancia (PDF) ↓</a>
+    </div>
+    <a class="certificate-preview" href="images/constancia-senaju.jpg" target="_blank" rel="noopener" aria-label="Abrir imagen de la constancia SENAJU">
+      <img src="images/constancia-senaju.jpg" alt="Constancia N.º 00283-2026-MINEDU/DM-SENAJU a nombre de Girls Conquering the World">
+      <span>CONSTANCIA SENAJU · 13 DE AGOSTO DE 2026</span>
+    </a>
+  </div>
+</section>
+
+<section class="section projects-section" id="proyectos">
+  <div class="section-heading">
+    <div><div class="section-kicker">04 / <span data-i18n="projectsKicker">LO QUE HACEMOS</span></div><h2 data-i18n="projectsTitle">Acciones que abren<br><em>nuevos caminos.</em></h2></div>
+    <p data-i18n="projectsIntro">Cada proyecto nace de una necesidad real y crece gracias al trabajo colaborativo con las comunidades.</p>
+  </div>
+  <div class="project-grid">
+    <article class="project-card project-large">
+      <img src="images/voluntarias-actividad.jpg" alt="Estudiantes en un aula">
+      <div class="project-overlay"><span class="project-tag">01 · EDUCACIÓN</span><h3 data-i18n="projectOne">Aprender para<br>transformar</h3><p data-i18n="projectOneText">Actividades educativas y acompañamiento escolar.</p></div>
+    </article>
+    <article class="project-card">
+      <img src="images/voluntariado-grupal.jpg" alt="Grupo de jóvenes colaborando">
+      <div class="project-overlay"><span class="project-tag">02 · COMUNIDAD</span><h3 data-i18n="projectTwo">Redes que<br>acompañan</h3><p data-i18n="projectTwoText">Espacios de escucha, encuentro y apoyo.</p></div>
+    </article>
+    <article class="project-card">
+      <img src="images/voluntaria-apoyo-escolar.jpg" alt="Persona estudiando en una computadora">
+      <div class="project-overlay"><span class="project-tag">03 · IDIOMAS</span><h3 data-i18n="projectThree">Más herramientas,<br>más posibilidades</h3><p data-i18n="projectThreeText">Aprendizaje de inglés y desarrollo de habilidades.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="map-section">
+  <div class="section map-copy">
+    <div class="section-kicker">05 / <span data-i18n="whereKicker">DÓNDE ESTAMOS</span></div>
+    <h2 data-i18n="mapTitle">Cerca de cada<br><em>comunidad.</em></h2>
+    <p data-i18n="mapText">Estamos organizando nuestro trabajo por distritos para acercar actividades y alianzas a más personas. Selecciona un distrito para conocer su estado.</p>
+    <div class="district-legend"><span><i class="dot active"></i>Disponible</span><span><i class="dot soon"></i>Próximamente</span><span><i class="dot unavailable"></i>No disponible</span></div>
+    <div id="districtInfo" class="district-info"><b data-i18n="selectDistrict">Selecciona un distrito en el mapa</b><small data-i18n="districtHint">Verás las líneas de trabajo previstas.</small></div>
+  </div>
+  <div class="map-wrap"><div id="districtMap" role="application" aria-label="Mapa de distritos de Lima"></div><div class="map-caption">LIMA · PERÚ <span>✳</span></div></div>
+</section>
+
+<section class="section partners-section">
+  <div class="section-kicker">06 / <span data-i18n="alliesKicker">TRABAJO EN RED</span></div>
+  <div class="partners-head"><h2 data-i18n="alliesTitle">La comunidad es<br>parte de la solución.</h2><p data-i18n="alliesText">Buscamos colaborar con instituciones educativas, espacios de apoyo a mujeres y centros de atención para personas mayores.</p></div>
+  <div class="partner-types">
+    <div data-partner="Educación" data-partner-id="escuelas"><span>01</span><b data-i18n="school">Instituciones educativas públicas</b><small data-i18n="schoolSub">Actividades y refuerzo educativo</small><em class="partner-state"><i></i><span></span></em></div>
+    <div data-partner="Espacios para mujeres" data-partner-id="mujeres"><span>02</span><b data-i18n="shelter">Espacios de protección para mujeres</b><small data-i18n="shelterSub">Acompañamiento y apoyo comunitario</small><em class="partner-state"><i></i><span></span></em></div>
+    <div data-partner="Casa de reposo" data-partner-id="mayores"><span>03</span><b data-i18n="home">Centros para personas mayores</b><small data-i18n="homeSub">Encuentros y actividades compartidas</small><em class="partner-state"><i></i><span></span></em></div>
+  </div>
+  <p class="privacy-note" data-i18n="privacyNote">Por seguridad, no publicamos direcciones de espacios de protección. La información de instituciones aliadas se comparte únicamente con autorización.</p>
+</section>
+
+<section class="volunteer-section" id="voluntariado">
+  <div class="volunteer-deco">✳</div>
+  <div class="section volunteer-grid">
+    <div><div class="section-kicker light">07 / <span data-i18n="volunteerKicker">SÚMATE AL EQUIPO</span></div><h2 data-i18n="volunteerTitle">Tu tiempo puede<br>crear <em>un cambio.</em></h2><p data-i18n="volunteerText">Buscamos personas comprometidas, con ganas de aprender, compartir conocimientos y trabajar por una comunidad con más oportunidades.</p><div class="age-pill">✦ <span data-i18n="ageText">Convocatoria para voluntarias desde los 15 años</span></div></div>
+    <form id="volunteerForm" class="form-card">
+      <h3 data-i18n="formTitle">Quiero ser voluntaria</h3><p data-i18n="formIntro">Cuéntanos un poquito sobre ti.</p>
+      <label><span data-i18n="fullName">Nombre completo</span><input required name="name" autocomplete="name" placeholder="Tu nombre"></label>
+      <div class="form-row"><label><span data-i18n="age">Edad</span><input required type="number" name="age" min="15" max="99" placeholder="15"></label><label><span data-i18n="district">Distrito</span><small class="field-hint">También puedes elegir tu distrito tocando el puntito correspondiente en el mapa.</small><select required id="districtSelect" name="district"><option value="" data-i18n="choose">Seleccionar</option><option>Jesús María</option><option>Breña</option><option>San Miguel</option><option>Pueblo Libre</option><option>Cercado de Lima</option><option>Callao</option><option data-i18n="other">Otro</option></select></label></div>
+      <label><span data-i18n="email">Correo electrónico</span><input required type="email" name="email" placeholder="tunombre@correo.com"></label>
+      <fieldset class="org-picker"><legend>¿A qué organización deseas pertenecer?</legend>
+        <label class="org-option selected" data-org-id="edu"><input type="radio" name="organization" value="Educación" required checked><span class="org-dot"></span><span class="org-copy"><b>Educación</b><small>Disponible · Refuerzo y actividades educativas</small></span><span class="available-tag">DISPONIBLE</span></label>
+        <label class="org-option unavailable" data-org-id="salud"><input type="radio" name="organization" value="Salud" disabled><span class="org-dot"></span><span class="org-copy"><b>Salud</b><small>Próximamente</small></span><span class="unavailable-tag">NO DISPONIBLE</span></label>
+        <label class="org-option unavailable" data-org-id="comunidad"><input type="radio" name="organization" value="Comunidad" disabled><span class="org-dot"></span><span class="org-copy"><b>Comunidad</b><small>Próximamente</small></span><span class="unavailable-tag">NO DISPONIBLE</span></label>
+      </fieldset>
+      <label class="consent"><input type="checkbox" name="consent" value="yes" required><span data-i18n="consent">Acepto que el equipo se comunique conmigo sobre el voluntariado y el uso de mis datos para este fin.</span></label>
+      <p class="minor-note" data-i18n="minorNote">Si tienes entre 15 y 17 años, necesitaremos autorización de tu madre, padre o tutor antes de participar en actividades.</p>
+      <label aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden">No completar este campo<input name="website" tabindex="-1" autocomplete="off"></label>
+      <button class="button button-dark full" type="submit"><span data-i18n="sendApplication">Enviar mi interés</span> <span>↗</span></button>
+      <div id="volunteerStatus" class="form-status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<section class="section english-section" id="ingles">
+  <div class="english-visual"><div class="english-circle">A1<br><span>→</span><br>C2</div><div class="english-sticker">YOUR<br>VOICE<br>MATTERS ✳</div></div>
+  <div class="english-copy"><div class="section-kicker">08 / <span data-i18n="englishKicker">ENGLISH OPPORTUNITIES</span></div><h2 data-i18n="englishTitle">El inglés también<br>abre <em>puertas.</em></h2><p data-i18n="englishText">Queremos acercar herramientas para aprender inglés y reconocer el nivel de cada participante. Puedes realizar una evaluación orientativa y conocer tu punto de partida.</p>
+    <div class="levels"><span>A1</span><span>A2</span><span>B1</span><span>B2</span><span>C1</span><span>C2</span></div>
+    <button class="button" id="startQuiz" data-i18n="startTest">Realizar evaluación de inglés <span>↗</span></button>
+    <small class="disclaimer" data-i18n="quizDisclaimer">Evaluación orientativa; no equivale a una certificación oficial.</small>
+  </div>
+</section>
+
+<section class="quiz-section" id="quizPanel" hidden>
+  <div class="quiz-card">
+    <button class="close-quiz" id="closeQuiz" aria-label="Cerrar">×</button>
+    <div class="section-kicker">ENGLISH CHECK-IN</div><div class="quiz-progress"><span id="quizProgress"></span></div>
+    <p class="quiz-count" id="quizCount">Pregunta 1 de 6</p><h3 id="quizQuestion"></h3><div id="quizAnswers" class="quiz-answers"></div>
+    <div id="quizResult" class="quiz-result" hidden></div>
+    <button class="button" id="nextQuestion" disabled data-i18n="next">Siguiente <span>→</span></button>
+  </div>
+</section>
+
+<section class="section transparency-section" id="transparencia">
+  <div class="transparency-top"><div><div class="section-kicker">09 / <span data-i18n="transparencyKicker">CONFIANZA Y COMPROMISO</span></div><h2 data-i18n="transparencyTitle">La confianza se<br>construye con <em>claridad.</em></h2></div><p data-i18n="transparencyText">Creemos que cada aporte debe gestionarse con responsabilidad. Aquí compartiremos avances, actividades, alianzas y reportes cuando estén disponibles.</p></div>
+  <div class="transparency-cards"><article><span>01</span><h3 data-i18n="reports">Reportes de actividades</h3><p data-i18n="reportsText">Resumen de acciones realizadas y próximos pasos.</p><b class="status-label" data-i18n="inProgress">En actualización</b></article><article><span>02</span><h3 data-i18n="funds">Uso de aportes</h3><p data-i18n="fundsText">Publicaremos el destino de los recursos y los comprobantes correspondientes.</p><b class="status-label" data-i18n="inProgress">En actualización</b></article><article><span>03</span><h3 data-i18n="accreditation">Alianzas y acreditaciones</h3><p data-i18n="accreditationText">La documentación institucional se incorporará cuando corresponda.</p><b class="status-label" data-i18n="inProgress">En actualización</b></article></div>
+  <div class="donation-strip"><div><span class="donation-star">✳</span><div><b data-i18n="donateTitle">¿Quieres apoyar esta iniciativa?</b><small data-i18n="donateText">Escríbenos para conocer las formas de colaboración disponibles.</small></div></div><a class="button button-dark" href="mailto:valentina2204mendoza4022@gmail.com?subject=Quiero%20apoyar%20a%20Girls%20Conquering%20the%20World" data-i18n="donateButton">Quiero colaborar ↗</a></div>
+</section>
+
+<section class="contact-section" id="contacto">
+  <div class="section contact-grid">
+    <div><div class="section-kicker light">10 / <span data-i18n="contactKicker">HABLEMOS</span></div><h2 data-i18n="contactTitle">Las grandes ideas<br>empiezan <em>conectando.</em></h2><p data-i18n="contactText">¿Quieres participar, proponer una alianza o saber más sobre nuestros proyectos? Nos encantará leerte.</p></div>
+    <div class="contact-details"><a href="mailto:valentina2204mendoza4022@gmail.com">valentina2204mendoza4022@gmail.com ↗</a><a href="mailto:romina.coello909@gmail.com">romina.coello909@gmail.com ↗</a><a href="mailto:redpoint.2.version.x@gmail.com">redpoint.2.version.x@gmail.com ↗</a><a href="https://www.instagram.com/girlsconqueringtheword_/" target="_blank" rel="noopener">@girlsconqueringtheword_ ↗</a><div class="team-names"><small data-i18n="team">COORDINACIÓN</small><b>Romina Ramirez · Valentina Mendoza · Doriane Mori</b></div></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><a class="brand footer-brand" href="#inicio"><img class="brand-logo footer-logo" src="images/logo-oficial.jpg" alt="Logo oficial de Girls Conquering the World"><span class="brand-name">GIRLS CONQUERING<br><b>THE WORLD</b></span></a><span data-i18n="footerLine">Juntas creamos oportunidades.</span><a class="admin-link" href="admin.html">ADMIN ↗</a><small>© <span id="year"></span> Girls Conquering the World</small></footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js"></script>
+<script src="site-custom.js"></script>
+</body></html>

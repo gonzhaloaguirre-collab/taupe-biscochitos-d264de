@@ -1,0 +1,13 @@
+{
+  "name": "girls-conquering-the-world-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web GCW con panel de administración y almacenamiento compartido en Netlify",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "type": "module"
+}
